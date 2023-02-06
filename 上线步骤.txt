@@ -1,0 +1,6 @@
+删掉docs里面的文件
+touch docs/.nojekyll
+cp -r build/html/* docs/
+git add *
+git commit -m "update0203"
+git push -u origin master

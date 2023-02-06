@@ -3,8 +3,7 @@
 
 .. raw:: html
 
-  <h2 id="test111">混凝土结构耐久性检测与评公告111</h2>
-
+  <h2 id="test111">2 基本规定</h2>
 
 
 2.1 基本要求
@@ -45,8 +44,230 @@
 2.2 安全等级与设计工作年限
 -------------------------------
 
+.. raw:: html
+
+ <p><a href="#id2.2.1"> 2.2.1</a> <span id="id2.2.1"> 结构设计时，应根据结构破坏可能产生后果的严重性，采用不同的安全等级。结构安全等级的划分应符合按<a href="#B2.2.1">表2.2.1</a>的规定。结构及其部件的安全等级不得低于三级。</span></p>
+ 
+  <style>
+      #biaoge,td {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B2.2.1">表2.2.1 安全等级的划分安全等级</b></caption>	
+              
+		    <tr>
+		        <td width="150px" align="center">安全等级</td>
+		        <td width="150px" align="center">破坏后果</td>
+		        <td width="150px" align="center">安全等级</td>
+		        <td width="150px" align="center">破坏后果</td>
+		        <td width="150px" align="center">安全等级</td>
+		        <td width="150px" align="center">破坏后果</td>
+		    </tr>
+	    <tr>
+		        <td  align="center">一级</td>
+		        <td align="center">很严重</td>
+		        <td  align="center">二级</td>
+		        <td  align="center">严重</td>
+		        <td  align="center">三级</td>
+		        <td align="center">不严重</td>
+		    </tr>
+		</table>
+    <p></p>
+   
+
+ <p><a href="#id2.2.2"> 2.2.2</a> <span id="id2.2.2"> 结构设计时，应根据工程的使用功能、建造和使用维护成本以及环境影响等因素规定设计工作年限，并应符合下列规定：</span></p>
+ <ol >
+ <li>房屋建筑的结构设计工作年限不应低于<a href="#B2.2.2-1">表2.2.2-1</a>的规定；</li>
+ </ol>
+
+  <style>
+      #biaoge,td {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }     
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B2.2.2-1">表2.2.2-1 房屋建筑的结构设计工作年限</b></caption>	
+              
+		    <tr>
+		        <td width="450px" align="center">类别</td>
+		        <td width="450px" align="center">设计工作年限（年）</td>
+		    </tr>
+	    <tr>
+		        <td align="center">临时性建筑结构</td>
+		        <td  align="center">5</td>
+		    </tr>
+        <tr>
+		        <td align="center">普通房屋和构筑物</td>
+		        <td  align="center">50</td>
+		    </tr>
+        <tr>
+		        <td align="center">特别重要的建筑结构</td>
+		        <td  align="center">70</td>
+		    </tr>
+		</table>
+    <p></p>
+ 
+ <ol start="2">
+ <li>公路工程的结构设计工作年限不应低于<a href="#B2.2.2-2">表2.2.2-2</a>的规定；</li>
+ </ol>
+
+  <style>
+      #biaoge,td {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+       #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B2.2.2-1">表2.2.2-2 公路工程的结构设计工作年限（年）</b></caption>	
+              
+		    <tr>
+		        <td align="left"colspan="3">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;公路等级<br/>结构类别</td>
+            <!-- <td></td> -->
+            <!-- <td></td> -->
+		        <td width=150px align="center">高速公路、<br/>一级公路&emsp;</td>
+            <td width=100px align="center">二级<br/>公路</td>
+            <td width=100px align="center">三级<br/>公路</td>
+            <td width=100px align="center">四级<br/>公路</td>
+		    </tr>
+		    <tr>
+		        <td width=60px rowspan="2"align="center" id="dhbg">路面</td>
+            <td align="center"colspan="2">沥青混凝土路面</td>
+            <!-- <td></td> -->
+		        <td width=150px align="center">15</td>
+            <td width=100px align="center">12</td>
+            <td width=100px align="center">10</td>
+            <td width=100px align="center">8</td>
+		    </tr>
+		    <tr>
+		        <!-- <td></td> -->
+            <td align="center"colspan="2">水泥混凝土路面</td>
+            <!-- <td></td> -->
+		        <td width=150px align="center">30</td>
+            <td width=100px align="center">20</td>
+            <td width=100px align="center">15</td>
+            <td width=100px align="center">10</td>
+		    </tr>
+       	<tr>
+		        <td width=60px rowspan="5"align="center" id="dhbg">桥涵</td>
+            <td width=150px rowspan="3"align="center" id="dhbg">主体结构</td>
+            <td width=200px align="center" id="dhbg">特大桥、大桥</td>
+            <td width=100px align="center">100</td>
+            <td width=100px align="center">100</td>
+            <td width=100px align="center">100</td>
+            <td width=150px align="center">100</td>
+		    </tr> 
+        <tr>
+		        <!-- <td></td> -->
+            <!-- <td></td> -->
+            <td width=200px align="center" id="dhbg">中桥</td>
+            <td width=100px align="center">100</td>
+            <td width=100px align="center">50</td>
+            <td width=100px align="center">50</td>
+            <td width=150px align="center">50</td>
+		    </tr>
+         <tr>
+		        <!-- <td></td> -->
+            <!-- <td></td> -->
+            <td width=200px align="center" id="dhbg">小桥</td>
+            <td width=100px align="center">50</td>
+            <td width=100px align="center">30</td>
+            <td width=100px align="center">30</td>
+            <td width=150px align="center">30</td>
+		    </tr>
+        <tr>
+		       <!-- <td></td> -->
+            <td width=150px rowspan="2"align="center" id="dhbg">可更换部件</td>
+            <td width=200px align="center" id="dhbg">斜拉桥、吊索、系杆等</td>
+            <td width=100px align="center">20</td>
+            <td width=100px align="center">20</td>
+            <td width=100px align="center">20</td>
+            <td width=150px align="center">20</td>
+		    </tr> 
+        <tr>
+		       <!-- <td></td> -->
+            <!-- <td></td> -->
+            <td width=200px align="center" id="dhbg">栏杆、伸缩装置、支座等</td>
+            <td width=100px align="center">15</td>
+            <td width=100px align="center">15</td>
+            <td width=100px align="center">15</td>
+            <td width=150px align="center">15</td>
+		    </tr>
+		</table>
+    <p></p>
+
+
+                
+ <ol start="3">
+  <li>永久性港口建筑物的结构设计工作年限不应低于50年。</li>
+ </ol>
+ <p><a href="#id2.2.3"> 2.2.3</a> <span id="id2.2.3"> 结构的防水层、电气和管道等附属设施的设计工作年限，应根据主体结构的设计工作年限和附属设施的材料、构造和使用要求等因素确定。</span></p>
+ <p><a href="#id2.2.4"> 2.2.4</a> <span id="id2.2.4"> 结构部件与结构的安全等级不一致或设计工作年限不一致的，应在设计文件中明确标明。</span></p>
+
+
 2.3 结构分析
 ------------------------
+
+.. raw:: html
+
+ <p><a href="#id2.3.1"> 2.3.1</a> <span id="id2.3.1"> 结构构件及其连接的作用效应应通过考虑了力学平衡条件、变形协调条件、材料时变特性以及稳定性等因素的结构分析方法确定。</span></p>
+ <p><a href="#id2.3.2"> 2.3.2</a> <span id="id2.3.2">  结构分析采用的计算模型应能合理反映结构在相关因素作用下的作用效应。分析所采用的简化或假定，应以理论和工程实践为基础，无成熟经验时应通过试验验证其合理性。分析时设置的边界条件应符合结构的实际情况。</span></p>
+ <p><a href="#id2.3.3"> 2.3.3</a> <span id="id2.3.3">  结构分析应根据结构类型、材料性能和受力特点等因素，选用线性或非线性分析方法。当动力作用对结构影响显著时，尚应采用动力响应分析或动力系数等方法考虑其影响。</span></p>
+ <p><a href="#id2.3.4"> 2.3.4</a> <span id="id2.3.4">  当结构的变形可能使作用效应显著增大时，应在结构分析中考虑结构变形的影响。</span></p>
+
 
 2.4 作用和作用组合
 ----------------------------
@@ -64,6 +285,7 @@
  <li>直接作用和间接作用；</li>
  <li>固定作用和非固定作用；</li>
  <li>静态作用和动态作用。</li>
+ <p></p>
  <p><a href="#id2.4.3"> 2.4.3</a> <span id="id2.4.3"> 确定可变作用代表值时应采用统一的设计基准期。当结构采用的设计基准期不是50年时，应按照可靠指标一致的原则，对本规范规定的可变作用量值进行调整。</span></p>
  <p><a href="#id2.4.4"> 2.4.4</a> <span id="id2.4.4"> 对于结构在施工和使用期间可能出现，而本规范未规定的各类作用，应根据结构的设计工作年限、设计基准期和保证率，确定其量值大小。</span></p>
  <p><a href="#id2.4.5"> 2.4.5</a> <span id="id2.4.5"> 生产工艺荷载应根据工艺及相关专业的要求确定。</span></p>
