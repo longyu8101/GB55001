@@ -1,0 +1,61 @@
+/** css/yourtheme.css **/
+
+/* This line is theme specific - it includes the base theme CSS */
+/*@import '../alabaster.css';  /* for Alabaster */
+
+@import 'theme.css';       /* for the Read the Docs theme */
+@import 'badge_only.css'; 
+/*@import 'sphinx-book-theme.css';*/
+
+/*body {
+    background-color:#c0c0c0;
+}
+
+#site-navigation{
+    background-color:#c0c0c0;
+
+}
+#search-input{
+    background-color:#c0c0c0;
+
+}
+#bd-toc-nav{
+    background-color:#c0c0c0;
+
+}
+.header-article {
+    background-color:#c0c0c0;
+
+}
+.headerbtn{
+    background-color:#c0c0c0;
+}*/
+
+#shouqi,#zhankai,#openspeek,#umbsbtn,#umbs1,#collect,#dialogtext,#diacloses,#diacloses2,#btndel{
+    background-color:#f0ffff;
+
+
+}
+.wy-nav-content{
+    background-color:#f0ffff;
+    max-width:1000px
+}
+
+
+.wy-nav-content-wrap{
+    background-color:#f0ffff;
+}
+
+h1{
+    line-height:0;
+    font-size: 0;
+    z-index: -999;
+
+}
+#test111{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+
+
