@@ -38,7 +38,7 @@
 }
 .wy-nav-content{
     background-color:#f0ffff;
-    max-width:1000px
+    min-width:600px
 }
 
 
@@ -55,6 +55,12 @@ h1{
 #test111{
     font-size: 28px;
     font-weight: 700;
+}
+
+.wy-nav-top{
+
+    width: 600px;
+
 }
 
 
