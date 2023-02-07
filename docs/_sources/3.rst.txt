@@ -7,8 +7,381 @@
 
 3.1 极限状态的分项系数设计方法
 ---------------------------------
+.. raw:: html
 
+ <p><a href="#id3.1.1"> 3.1.1</a> <span id="id3.1.1"> 涉及人身安全以及结构安全的极限状态应作为承载能力极限状态。当结构或结构构件出现下列状态之一时，应认为超过了承载能力极限状态：</span></p>
+ <ol>
+ <li>结构构件或连接因超过材料强度而破坏，或因过度变形而不适于继续承载；</li>
+ <li>整个结构或其一部分作为刚体失去平衡；</li>
+ <li>结构转变为机动体系；</li>
+ <li>结构或结构构件丧失稳定；</li>
+ <li>结构因局部破坏而发生连续倒塌；</li>
+ <li>地基丧失承载力而破坏；</li>
+ <li>结构或结构构件发生疲劳破坏。</li>
+  </ol>
+ <p><a href="#id3.1.2"> 3.1.2</a> <span id="id3.1.2"> 涉及结构或结构单元的正常使用功能、人员舒适性、建筑外观的极限状态应作为正常使用极限状态。当结构或结构构件出现下列状态之一时，应认为超过了正常使用极限状态：</span></p>
+ <ol>
+ <li>影响外观、使用舒适性或结构使用功能的变形；</li>
+ <li>造成人员不舒适或结构使用功能受限的振动；</li>
+ <li>影响外观、耐久性或结构使用功能的局部损坏。</li>
+  </ol>
+ <p><a href="#id3.1.3"> 3.1.3</a> <span id="id3.1.3"> 结构设计应对起控制作用的极限状态进行计算或验算；当不能确定起控制作用的极限状态时，结构设计应对不同极限状态分别计算或验算。</span></p>
+ <p><a href="#id3.1.4"> 3.1.4</a> <span id="id3.1.4"> 结构设计应区分下列设计状况：</span></p>
+ <ol>
+ <li>持久设计状况，适用于结构正常使用时的情况；</li>
+ <li> 短暂设计状况，适用于结构施工和维修等临时情况；</li>
+ <li>偶然设计状况，适用于结构遭受火灾、爆炸，非正常撞击等罕见情况；</li>
+ <li>地震设计状况，适用于结构遭受地震时的情况。</li>
+  </ol>
+ <p><a href="#id3.1.5"> 3.1.5</a> <span id="id3.1.5"> 结构设计时选定的设计状况，应涵盖正常施工和使用过程中的各种不利情况。各种设计状况均应进行承载能力极限状态设计，持久设计状况尚应进行正常使用极限状态设计。</span></p>
+ <p><a href="#id3.1.6"> 3.1.6</a> <span id="id3.1.6"> 对每种设计状况，均应考虑各种不同的作用组合，以确定作用控制工况和最不利的效应设计值。</span></p>
+ <p><a href="#id3.1.7"> 3.1.7</a> <span id="id3.1.7"> 进行承载能力极限状态设计时采用的作用组合，应符合下列规定：</span></p>
+ <ol>
+ <li>持久设计状况和短暂设计状况应采用作用的基本组合；</li>
+ <li>偶然设计状况应采用作用的偶然组合；</li>
+ <li>地震设计状况应采用作用的地震组合；</li>
+ <li>作用组合应为可能同时出现的作用的组合；</li>
+ <li>每个作用组合中应包括一个主导可变作用或一个偶然作用或一个地震作用；</li>
+ <li>当静力平衡等极限状态设计对永久作用的位置和大小很敏感时，该永久作用的有利部分和不利部分应作为单独作用分别考虑；</li>
+ <li>当一种作用产生的几种效应非完全相关时，应降低有利效应的分项系数取值。</li>
+ <p><a href="#id3.1.8"> 3.1.8</a> <span id="id3.1.8"> 进行正常使用极限状态设计时采用的作用组合，应符合下列规定：</span></p>
+ <ol>
+ <li>标准组合，用于不可逆正常使用极限状态设计；</li>
+ <li>频遇组合，用于可逆正常使用极限状态设计；</li>
+ <li>准永久组合，用于长期效应是决定性因素的正常使用极限状态设计。</li>
+ <p><a href="#id3.1.9"> 3.1.9</a> <span id="id3.1.9"> 设计基本变量的设计值应符合下列规定：</span></p>
+ <ol>
+ <li>作用的设计值应为作用代表值与作用分项系数的乘积。</li>
+ <li>材料性能的设计值应为材料性能标准值与材料性能分项系数之商。</li>
+ <li>当几何参数的变异性对结构性能无明显影响时，几何参数的设计值应取其标准值；当有明显影响时，几何参数设计值应按不利原则取其标准值与几何参数附加量之和或差。</li>
+ <li>结构或结构构件的抗力设计值应为考虑了材料性能设计值和几何参数设计值之后，分析计算得到的抗力值。</li>
+ <p><a href="#id3.1.10"> 3.1.10</a> <span id="id3.1.10"> 结构或结构构件按承载能力极限状态设计时，应符合下列规定：</span></p>
+ <ol>
+ <li>对于结构或结构构件的破坏或过度变形的承载能力极限状态设计，作用组合的效应设计值与结构重要性系数的乘积不应超过结构或结构构件的抗力设计值，其中结构重要性系数<font size="4">γ</font><sub>0</sub>应按本规范<a href="#B3.3.12">表3.3.12</a>的规定取值。</li>
+ <li>对于整个结构或其一部分作为刚体失去静力平衡的承载能力极限状态设计，不平衡作用效应的设计值与结构重要性系数的乘积不应超过平衡作用的效应设计值，其中结构重要性系数<font size="4">γ</font><sub>0</sub>应按本规范<a href="#B3.3.12">表3.3.12</a>的规定取值。</li>
+ <li>对于结构或结构构件的疲劳破坏的承载能力极限状态设计，应根据构件受力特性及疲劳设计方法采用不同的疲劳荷载模型和验算表达式。</li>
+ </ol>
+ <p><a href="#id3.1.11"> 3.1.11</a> <span id="id3.1.11"> 结构或结构构件按正常使用极限状态设计时，作用组合的效应设计值不应超过设计要求的效应限值。</span></p>
+ <p><a href="#id3.1.12"> 3.1.12</a> <span id="id3.1.12"> 结构重要性系数 <font size="4">γ</font><sub>0</sub> 不应小于<a href="#B3.3.12">表3.3.12</a>的规定。</span></p>
+ 
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B3.1.12">表3.1.12 结构重要性系数 <font size="4">γ</font><sub>0</sub></b></caption>	
+              
+		    <tr>
+		        <td  rowspan="3"  align="center" id="dhbg">结构<br/>重要性系数</td>
+		        <td  colspan="3" align="center">对持久设计状况和短暂设计状况</td>
+            <!-- <td></td> -->
+            <!-- <td></td> -->
+		        <td  rowspan="3"  align="center" id="dhbg">对偶然设计状况<br/>和地震设计状况</td>
+		    </tr>
+	     <tr>
+		       <!-- <td></td> -->
+		        <td  colspan="3" align="center">安全等级</td>
+           <!-- <td></td> -->
+           <!-- <td></td> -->
+		       <!-- <td></td> -->
+		    </tr>
+      	<tr>
+		       <!-- <td></td> -->
+		        <td align="center">一级</td>
+            <td align="center">二级</td>
+            <td align="center">三级</td>
+		       <!-- <td></td> -->
+		    </tr>
+        <tr>
+		      <td width="180px"  align="center"><font size="4">γ</font><sub>0</sub></td>
+		      <td width="180px"  align="center">1.1</td>
+            <td width="180px"  align="center">1.0</td>
+            <td width="180px"  align="center">0.9</td>
+		      <td width="180px"  align="center">1.0</td>
+		    </tr>
+		</table>
+    <p></p>
+
+ <p><a href="#id3.1.13"> 3.1.13</a> <span id="id3.1.13"> 房屋建筑结构的作用分项系数应按下列规定取值：</span></p>
+ <ol>
+ <li>永久作用：当对结构不利时，不应小于1.3；当对结构有利时，不应大于1.0。</li>
+ <li>预应力：当对结构不利时，不应小于1.3；当对结构有利时，不应大于1.0。</li>
+ <li>标准值大于4kN/m<sup>2</sup>的工业房屋楼面活荷载，当对结构不利时不应小于1.4；当对结构有利时，应取为0。</li>
+ <li>除第3款之外的可变作用，当对结构不利时不应小于1.5；当对结构有利时，应取为0。</li>
+  </ol>
+ <p><a href="#id3.1.14"> 3.1.14</a> <span id="id3.1.14"> 公路桥涵结构永久作用的分项系数，应按<a href="#B3.3.14">表3.3.14</a>采用。</span></p>
+ 
+ <style>
+       #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B3.1.14">表3.1.14 公路桥涵结构永久作用的分项系数</b></caption>	
+              
+		    <tr>
+		        <td  width="300px" colspan="2" align="center" id="dhbg">作用类别</td>
+             <!-- <td></td> -->
+		        <td  align="center">当作用效应对结构的<br/>承载力不利时</td>
+            <td   align="center">当作用效应对结构的<br/>承载力有利时</td>
+		    </tr>
+	     <tr>
+		        <td  align="center" colspan="2"  id="dhbg">混凝土和圬工结构重力<br/>(包括结构附加重力)</td>
+            <!-- <td></td> -->
+		        <td  align="center" id="dhbg">1.2</td>
+            <td  rowspan="7" align="center" id="dhbg">1.0</td>
+		    </tr>
+	     <tr>
+		        <td  align="center"  colspan="2" id="dhbg">钢结构重力<br/>(包括结构附加重力)</td>
+            <!-- <td></td> -->
+		        <td  align="center" id="dhbg">1.1 ~ 1.2</td>
+            <!-- <td></td> -->
+		    </tr>
+       <tr>
+		        <td  align="center" colspan="2" >预加力</td>
+            <!-- <td></td> -->
+		        <td  rowspan="2" align="center" id="dhbg">1.2</td>
+            <!-- <td></td> -->
+		    </tr>
+       <tr>
+		        <td  align="center" colspan="2" >土的重力</td>
+            <!-- <td></td> -->
+		        <!-- <td></td> -->
+            <!-- <td></td> -->
+		    </tr>
+       <tr>
+		       <td  align="center" colspan="2" >混凝土的收缩及徐变作用</td>
+           <!-- <td></td> -->
+		       <td  align="center">1.0</td>
+            <!-- <td></td> -->
+		    </tr>
+       <tr>
+		       <td  align="center" colspan="2" >土侧压力</td>
+           <!-- <td></td> -->
+		       <td  align="center">1.4</td>
+            <!-- <td></td> -->
+		    </tr>
+       <tr>
+		       <td  align="center" colspan="2" >水的浮力</td>
+           <!-- <td></td> -->
+		       <td  align="center">1.0</td>
+            <!-- <td></td> -->
+		    </tr>
+        <tr>
+		       <td  align="center" rowspan="2" width=100px id="dhbg">基础变<br/>位作用</td>
+           <td  align="center"  width=200px>混凝土和圬工结构</td>
+		       <td  align="center"  width=300px>0.5</td>
+           <td  align="center"  width=300px>0.5</td>
+		    </tr> 
+       <tr>
+		        <!-- <td></td> -->
+           <td  align="center">钢结构</td>
+		       <td  align="center">1.0</td>
+           <td  align="center">1.0</td>
+		    </tr> 
+
+		</table>
+    <p></p>
+
+
+
+ <p><a href="#id3.1.15"> 3.1.15</a> <span id="id3.1.15"> 港口工程结构的作用分项系数，应按<a href="#B3.3.15">表3.3.15</a>采用。</span></p>
+ 
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B3.1.15">表3.1.15 港口工程结构的作用分项系数</b></caption>	
+              
+		    <tr>
+		        <td  width=400px align="center" id="dhbg">荷载名称</td>
+		        <td  width=100px align="center">分项<br/>系数</td>
+            <td  width=300px align="center" id="dhbg">荷载名称</td>
+		        <td  width=100px align="center">分项<br/>系数</td>
+		    </tr>
+	    <tr>
+		        <td  align="center">永久荷载（不包括土压力、静水压力）</td>
+		        <td  align="center">1.2</td>
+            <td  align="center">铁路荷载</td>
+		        <td  align="center" rowspan="8" id="dhbg">1.4</td>
+		    </tr>
+        <tr>
+		        <td  align="center">五金钢铁荷载</td>
+		        <td  align="center" rowspan="7" id="dhbg">1.5</td>
+            <td  align="center">汽车荷载</td>
+		        <!-- <td></td> -->
+		    </tr>
+        <tr>
+		        <td  align="center">散货荷载</td>
+		         <!-- <td></td> -->
+            <td  align="center">缆车荷载</td>
+		        <!-- <td></td> -->
+		    </tr>
+          <tr>
+		        <td  align="center">起重机械荷载</td>
+		         <!-- <td></td> -->
+            <td  align="center">船舶系缆力</td>
+		        <!-- <td></td> -->
+		    </tr>
+        <tr>
+		        <td  align="center">船舶撞击力</td>
+		         <!-- <td></td> -->
+            <td  align="center">船舶挤靠力</td>
+		        <!-- <td></td> -->
+		    </tr>
+        <tr>
+		        <td  align="center">水流力</td>
+		         <!-- <td></td> -->
+            <td  align="center">运输机荷载</td>
+		        <!-- <td></td> -->
+		    </tr>
+        <tr>
+		        <td  align="center">冰荷载</td>
+		         <!-- <td></td> -->
+            <td  align="center">风荷载</td>
+		        <!-- <td></td> -->
+		    </tr>
+        <tr>
+		        <td  align="center">波浪力（构建计算）</td>
+		        <!-- <td></td> -->
+            <td  align="center">人群荷载</td>
+		        <!-- <td></td> -->
+		    </tr>
+        <tr>
+		        <td  align="center">一般件杂货、集装箱荷载</td>
+		        <td  align="center" rowspan="2" id="dhbg">1.4</td>
+            <td  align="center">土压力</td>
+		        <td  align="center">1.35</td>
+		    </tr>
+        <tr>
+		        <td  align="center">液体管道（含推力）荷载</td>
+		        <!-- <td></td> -->
+            <td  align="center">剩余水压力</td>
+		        <td  align="center">1.05</td>
+		    </tr>    
+              
+     </table>
+    <p></p>
+
+
+
+ <p><a href="#id3.1.16"> 3.1.16</a> <span id="id3.1.16"> 房屋建筑的可变荷载考虑设计工作年限的调整系数 <font size="4">γ</font><sub>L</sub> 应按下列规定采用：</span></p>
+ <ol>
+ <li>对于荷载标准值随时间变化的楼面和屋面活荷载，考虑设计工作年限的调整系数 <font size="4">γ</font><sub>L</sub> 应按<a href="#B3.3.16">表3.3.16</a>采用。当设计工作年限不为表中数值时，调整系数 <font size="4">γ</font><sub>L</sub> 不应小于按线性内插确定的值。</li>
+  </ol>
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B3.1.16">表3.1.16 楼面和屋面活荷载考虑设计工作年限的调整系数 <i><font size="4">γ</font></i><sub>L</sub></b></caption>	
+              
+		    <tr>
+		        <td  width=450px align="center" >结构设计工作年限（年）</td>
+		        <td  width=150px align="center">5</td>
+            <td  width=150px align="center">50</td>
+            <td  width=150px align="center">100</td>
+		    </tr>
+        <tr>
+		        <td  width=450px align="center" ><i><font size="4">γ</font></i><sub>L</sub></td>
+		        <td  width=150px align="center">0.9</td>
+            <td  width=150px align="center">1.0</td>
+            <td  width=150px align="center">1.1</td>
+		    </tr>
+     </table>
+    <p></p>
+
+ <ol start="2">
+ <li>对雪荷载和风荷载，调整系数应按重现期与设计工作年限相同的原则确定。
+ </ol>
 
 
 3.2 其他设计方法
 ----------------------------------
+
+.. raw:: html
+
+ <p><a href="#id3.2.1"> 3.2.1</a> <span id="id3.2.1"> 采用容许应力法进行结构设计时，结构在作用的标准组合或地震组合下的应力值不应超过材料的容许应力值。</span></p>
+ <p><a href="#id3.2.2"> 3.2.2</a> <span id="id3.2.2"> 采用安全系数法进行结构设计时，结构在作用标准组合或地震组合下的效应值乘以安全系数之后，不应超过结构或构件的抗力值。</span></p>
+ <p><a href="#id3.2.3"> 3.2.3</a> <span id="id3.2.3"> 结构或结构构件的疲劳破坏和正常使用条件下的设计，应根据设计需要采用相应的疲劳荷载模型和验算表达式。</span></p>

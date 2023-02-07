@@ -8,11 +8,351 @@
 4.1 永久作用
 ----------------------
 
+.. raw:: html
+
+ <p><a href="#id4.1.1"> 4.1.1</a> <span id="id4.1.1"> 结构自重的标准值应按结构构件的设计尺寸与材料密度计算确定。对于自重变异较大的材料和构件，对结构不利时自重标准值取上限值，对结构有利时取下限值。</span></p>
+ <p><a href="#id4.1.2"> 4.1.2</a> <span id="id4.1.2"> 位置固定的永久设备自重应采用设备铭牌重量值；当无铭牌重量时，应按实际重量计算。</span></p>
+ <p><a href="#id4.1.3"> 4.1.3</a> <span id="id4.1.3"> 隔墙自重作为永久作用时，应符合位置固定的要求；位置可灵活布置的轻质隔墙自重应按可变荷载考虑。</span></p>
+ <p><a href="#id4.1.4"> 4.1.4</a> <span id="id4.1.4"> 土压力应按设计埋深与土的单位体积自重计算确定。土的单位体积自重应根据计算水位分别取不同密度进行计算。</span></p>
+ <p><a href="#id4.1.5"> 4.1.5</a> <span id="id4.1.5"> 预加应力应考虑时间效应影响，采用有效预应力。</span></p>
 
 
 4.2 楼面和屋面活荷载
 ----------------------
 
+.. raw:: html
+
+ <p><a href="#id4.2.1"> 4.2.1</a> <span id="id4.2.1"> 采用等效均布活荷载方法进行设计时，应保证其产生的荷载效应与最不利堆放情况等效；建筑楼面和屋面堆放物较多或较重的区域，应按实际情况考虑其荷载。</span></p>
+ <p><a href="#id4.2.2"> 4.2.2</a> <span id="id4.2.2"> 一般使用条件下的民用建筑楼面均布活荷载标准值及其组合值系数、频遇值系数和准永久值系数的取值，不应小于<a href="#B4.2.2">表4.2.2</a>的规定。当使用荷载较大、情况特殊或有专门要求时，应按实际情况采用。</span></p>
+ <p><a href="#id4.2.3"> 4.2.3</a> <span id="id4.2.3"> 汽车通道及客车停车库的楼面均布活荷载标准值及其组合值系数、频遇值系数和准永久值系数的取值，不应小于<a href="#B4.2.3">表4.2.3</a>的规定。当应用条件不符合本表要求时，应按效应等效原则，将车轮的局部荷载换算为等效均布荷载。</span></p>
+
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+         
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+     </style>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.2.2">表4.2.2 民用建筑楼面均匀活荷载标准值及其组合值系数、<br/>频遇值系数和准永久值系数</b></caption>	
+              
+		    <tr>
+		      <td width=60px align="center" id="dhbg">项次</td>
+		      <td  colspan="2" align="center" id="dhbg">类别</td>
+            <!-- <td></td> -->
+            <td width=100px align="center">标准值<br/>(kN/m<sup>2</sup>)</td>
+            <td width=100px align="center">组合值<br/>系数ψ<sub>c</sub></td>
+		      <td width=100px align="center">频遇值<br/>系数ψ<sub>f</sub></td>
+            <td width=100px align="center">准永久值<br/>系数ψ<sub>q</sub></td>
+		    </tr>
+	     <tr>
+		     <td  rowspan="2" align="center" id="dhbg">1</td>
+		     <td  colspan="2" align="left">(1) 住宅、宿舍、旅馆、医院病房、托儿所、幼儿园</td>
+           <!-- <td></td> -->
+           <td align="center">2.0</td>
+           <td align="center">0.7</td>
+		     <td align="center">0.5</td>
+            <td align="center">0.4</td>
+		   </tr>
+       <tr>
+		    <!-- <td></td> -->
+		     <td  colspan="2" align="left">(2) 办公楼、教室、医院门诊室</td>
+           <!-- <td></td> -->
+           <td align="center">2.5</td>
+           <td align="center">0.7</td>
+		     <td align="center">0.6</td>
+            <td align="center">0.5</td>
+		   </tr>   
+       <tr>
+		    <td align="center">2</td>
+		    <td align="left"colspan="2">食堂、餐厅、试验室、阅览室、会议室、一般资料档案室</td>
+          <!-- <td></td> -->
+          <td align="center">3.0</td>
+          <td align="center">0.7</td>
+		    <td align="center">0.6</td>
+          <td align="center">0.5</td>
+		   </tr> 
+       <tr>
+		    <td align="center">3</td>
+		    <td align="left" colspan="2">礼堂、剧场、影院、有固定座位的看台、公共洗衣房</td>
+          <!-- <td></td> -->
+          <td align="center">3.5</td>
+          <td align="center">0.7</td>
+		    <td align="center">0.5</td>
+          <td align="center">0.3</td>
+		   </tr>  
+       <tr>
+		     <td  rowspan="2" align="center" id="dhbg">4</td>
+		     <td  colspan="2" align="left">(1) 商店、展览厅、车站、港口、机场大厅及其旅客等候室</td>
+           <!-- <td></td> -->
+           <td align="center">4.0</td>
+           <td align="center">0.7</td>
+		     <td align="center">0.6</td>
+            <td align="center">0.5</td>
+		   </tr>
+       <tr>
+		    <!-- <td></td> -->
+		     <td  colspan="2" align="left">(2) 无固定座位的看台</td>
+           <!-- <td></td> -->
+           <td align="center">4.0</td>
+           <td align="center">0.7</td>
+		     <td align="center">0.5</td>
+           <td align="center">0.3</td>
+		   </tr> 
+       <tr>
+		     <td  rowspan="2" align="center" id="dhbg">5</td>
+		     <td  colspan="2" align="left">(1) 健身房、演出舞台</td>
+           <!-- <td></td> -->
+           <td align="center">4.5</td>
+           <td align="center">0.7</td>
+		     <td align="center">0.6</td>
+           <td align="center">0.5</td>
+		   </tr>
+       <tr>
+		    <!-- <td></td> -->
+		     <td  colspan="2" align="left">(2) 运动场、舞厅</td>
+           <!-- <td></td> -->
+           <td align="center">4.5</td>
+           <td align="center">0.7</td>
+		     <td align="center">0.6</td>
+           <td align="center">0.3</td>
+		   </tr>   
+          <tr>
+		     <td  rowspan="2" align="center" id="dhbg">6</td>
+		     <td  colspan="2" align="left">(1) 健书库、档案库、储藏室（书架高度不超过2.5 m）</td>
+           <!-- <td></td> -->
+           <td align="center">6.0</td>
+           <td align="center">0.9</td>
+		     <td align="center">0.9</td>
+           <td align="center">0.8</td>
+		   </tr>
+       <tr>
+		    <!-- <td></td> -->
+		     <td  colspan="2" align="left">(2) 密集柜书柜（书架高度不超过2.5 m）</td>
+           <!-- <td></td> -->
+           <td align="center">12.0</td>
+           <td align="center">0.9</td>
+		     <td align="center">0.9</td>
+           <td align="center">0.8</td>
+		   </tr>
+       <tr>
+		    <td align="center">7</td>
+		    <td align="left" colspan="2">通风机房、电梯机房</td>
+          <!-- <td></td> -->
+          <td align="center">8.0</td>
+          <td align="center">0.9</td>
+		    <td align="center">0.9</td>
+          <td align="center">0.8</td>
+		   </tr>
+         <tr>
+		     <td  rowspan="2" align="center" id="dhbg">8</td>
+		     <td  width=100px rowspan="2" align="center" id="dhbg">厨房</td>
+           <td  width=340px align="left">(1) 餐厅</td>
+           <td align="center">4.0</td>
+           <td align="center">0.7</td>
+		     <td align="center">0.7</td>
+           <td align="center">0.7</td>
+		   </tr> 
+          <tr>
+		    <!-- <td></td> -->
+          <!-- <td></td> -->
+		     <td align="left">(2) 其他</td>
+           <td align="center">2.0</td>
+           <td align="center">0.7</td>
+		     <td align="center">0.6</td>
+           <td align="center">0.5</td>
+		   </tr> 
+        <tr>
+		    <td align="center">9</td>
+		    <td align="left" colspan="2">浴室、卫生间、盥洗室</td>
+          <!-- <td></td> -->
+          <td align="center">2.5</td>
+          <td align="center">0.7</td>
+		    <td align="center">0.6</td>
+          <td align="center">0.5</td>
+		   </tr>  
+       <tr>
+		     <td  rowspan="3" align="center" id="dhbg">10</td>
+		     <td  rowspan="3" align="center" id="dhbg">厨房</td>
+           <td align="left">(1)宿舍、旅馆、医院病房、托儿所、幼儿园、住宅</td>
+           <td align="center">2.0</td>
+           <td align="center">0.7</td>
+		     <td align="center">0.5</td>
+           <td align="center">0.4</td>
+		   </tr>
+       <tr>
+		    <!-- <td></td> -->
+		    <!-- <td></td> -->
+           <td align="left">(2)办公楼、餐厅、医院门诊部</td>
+           <td align="center">3.0</td>
+           <td align="center">0.7</td>
+		     <td align="center">0.6</td>
+           <td align="center">0.5</td>
+		   </tr>
+       <tr>
+		    <!-- <td></td> -->
+		    <!-- <td></td> -->
+           <td align="left">(3)教学楼及其他可能出现人员密集的情况</td>
+           <td align="center">3.5</td>
+           <td align="center">0.7</td>
+		     <td align="center">0.5</td>
+           <td align="center">0.3</td>
+		   </tr>  
+         <tr>
+		     <td  rowspan="2" align="center" id="dhbg">11</td>
+		     <td  width=100px rowspan="2" align="center" id="dhbg">楼梯</td>
+           <td  width=300px align="left">(1) 多层住宅</td>
+           <td align="center">2.0</td>
+           <td align="center">0.7</td>
+		     <td align="center">0.5</td>
+           <td align="center">0.4</td>
+		   </tr> 
+          <tr>
+		    <!-- <td></td> -->
+          <!-- <td></td> -->
+		     <td align="left">(2) 其他</td>
+           <td align="center">3.5</td>
+           <td align="center">0.7</td>
+		     <td align="center">0.5</td>
+           <td align="center">0.3</td>
+		   </tr> 
+         <tr>
+		     <td  rowspan="2" align="center" id="dhbg">12</td>
+		     <td  width=100px rowspan="2" align="center" id="dhbg">阳台</td>
+           <td  width=300px align="left">(1) 可能出现人员密集的情况</td>
+           <td align="center">3.5</td>
+           <td align="center">0.7</td>
+		     <td align="center">0.6</td>
+           <td align="center">0.5</td>
+		   </tr> 
+          <tr>
+		    <!-- <td></td> -->
+          <!-- <td></td> -->
+		     <td align="left">(2) 其他</td>
+           <td align="center">2.5</td>
+           <td align="center">0.7</td>
+		     <td align="center">0.6</td>
+           <td align="center">0.5</td>
+		   </tr>                                          	
+		</table>
+    <p></p>
+
+		<table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.2.3">汽车通道及客车停车库的楼面均布活荷载</b></caption>	
+              
+		    <tr>
+		      <td  colspan="2" align="center" id="dhbg">类别</td>
+            <!-- <td></td> -->
+            <td width=100px align="center">标准值<br/>(kN/m<sup>2</sup>)</td>
+            <td width=100px align="center">组合值<br/>系数ψ<sub>c</sub></td>
+		      <td width=100px align="center">频遇值<br/>系数ψ<sub>f</sub></td>
+            <td width=100px align="center">准永久值<br/>系数ψ<sub>q</sub></td>
+		    </tr>
+	     <tr>
+		     <td width=200px  rowspan="2" align="center" id="dhbg">单向板楼盖<br/>(2m≤板跨<i>L</i>)</td>
+		     <td width=300px  align="center"id="dhbg">定员不超过9人的小型客车</td>
+           <td align="center"id="dhbg">4.0</td>
+           <td align="center"id="dhbg">0.7</td>
+		     <td align="center"id="dhbg">0.7</td>
+            <td align="center"id="dhbg">0.6</td>
+		   </tr>
+       <tr>
+		    <!-- <td></td> -->
+		     <td  align="center"id="dhbg">满载总重不大于300 kN 的消防车</td>
+           <td align="center"id="dhbg">35.0</td>
+           <td align="center"id="dhbg">0.7</td>
+		     <td align="center"id="dhbg">0.5</td>
+            <td align="center"id="dhbg">0.0</td>
+		   </tr>   
+	     <tr>
+		     <td width=300px  rowspan="2" align="center" id="dhbg">双向板楼盖<br/>(3m≤板跨短边<i>L</i>< 6 m)</td>
+		     <td align="center"id="dhbg">定员不超过9人的小型客车</td>
+           <td align="center"id="dhbg">5.5-0.5<i>L</i></td>
+           <td align="center"id="dhbg">0.7</td>
+		     <td align="center"id="dhbg">0.7</td>
+            <td align="center"id="dhbg">0.6</td>
+		   </tr>
+       <tr>
+		    <!-- <td></td> -->
+		     <td  align="center"id="dhbg">满载总重不大于300 kN 的消防车</td>
+           <td align="center"id="dhbg">50.0-5.0<i>L</i></td>
+           <td align="center"id="dhbg">0.7</td>
+		     <td align="center"id="dhbg">0.5</td>
+            <td align="center"id="dhbg">0.0</td>
+		   </tr>  
+	     <tr>
+		     <td width=300px  rowspan="2" align="center" id="dhbg">双向板楼盖<br/>(6m≤板跨短边<i>L</i>)<br/>和无梁楼盖<br/>（柱网不小于6 m×6 m）</td>
+		     <td align="center"id="dhbg">定员不超过9人的小型客车</td>
+           <td align="center"id="dhbg">2.5</td>
+           <td align="center"id="dhbg">0.7</td>
+		     <td align="center"id="dhbg">0.7</td>
+            <td align="center"id="dhbg">0.6</td>
+		   </tr>
+       <tr>
+		    <!-- <td></td> -->
+		     <td  align="center"id="dhbg">满载总重不大于300 kN 的消防车</td>
+           <td align="center"id="dhbg">20.0</td>
+           <td align="center"id="dhbg">0.7</td>
+		     <td align="center"id="dhbg">0.5</td>
+            <td align="center"id="dhbg">0.0</td>
+		   </tr>                 
+      </table>  
+      <p></p>  
+
+ <p><a href="#id4.2.4"> 4.2.4</a> <span id="id4.2.4"> 当采用楼面等效均布活荷载方法设计楼面梁时，本规范<a href="#B4.2.2">表4.2.2</a>和<a href="#B4.2.3">表4.2.3</a>中的楼面活荷载标准值的折减系数取值不应小于下列规定值：</span></p>
+ <ol>
+ <li><a href="#B4.2.2">表4.2.2</a>中第1（1）项当楼面梁从属面积不超过25㎡（含）时，不应折减；超过25㎡时，不应小于0.9；</li>
+ <li><a href="#B4.2.2">表4.2.2</a>中第1（2）~7项当楼面梁从属面积不超过50㎡（含）时，不应折减；超过50㎡时，不应小于0.9；</li>
+ <li><a href="#B4.2.2">表4.2.2</a>中第8 ~ 12项应采用与所属房屋类别相同的折减系数；</li>
+ <li><a href="#B4.2.3">表4.2.3</a>对单向板楼盖的次梁和槽形板的纵肋不应小于0.8，对单向板楼盖的主梁不应小于0.6，对双向板楼盖的梁不应小于0.8。</li>
+ </ol>
+ <p><a href="#id4.2.5"> 4.2.5</a> <span id="id4.2.5"> 当采用楼面等效均布活荷载方法设计墙、柱和基础时，折减系数取值应符合下列规定：</span></p>
+ <ol>
+ <li><a href="#B4.2.2">表4.2.2</a>中第1（1）项单层建筑楼面梁的从属面积超过25㎡时不应小于0.9，其他情况应按<a href="#B4.2.5">表4.2.5</a>规定采用；</li>
+ <li><a href="#B4.2.2">表4.2.2</a>中第1（2）～7项应采用与其楼面梁相同的折减系数；</li>
+ <li><a href="#B4.2.2">表4.2.2</a>中第8～12项应采用与所属房屋类别相同的折减系数；</li>
+ <li>应根据实际情况决定是否考虑<a href="#B4.2.3">表4.2.3</a>中的消防车荷载；对<a href="#B4.2.3">表4.2.3</a>中的客车，对单向板楼盖不应小于0.5，对双向板楼盖和无梁楼盖不应小于0.8。</li>
+ </ol>
+ <table id="biaoge" style="font-family:times new roman">
+
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.2.5">表4.2.5 活荷载按楼层的折减系数</b></caption>	
+              
+		    <tr>
+		      <td width=400px align="center" id="dhbg">墙、柱、基础计算截面以上的层数</td>
+		      <td width=100px align="center" id="dhbg">2 ~ 3</td>
+            <td width=100px align="center" id="dhbg">4 ~ 5</td>
+            <td width=100px align="center" id="dhbg">6 ~ 8</td>
+            <td width=100px align="center" id="dhbg">9 ~ 20</td>
+            <td width=100px align="center" id="dhbg">> 20</td>
+		    </tr>
+ 		    <tr>
+		      <td align="center" id="dhbg">计算截面以上各楼层活荷载总和的折减系数</td>
+		      <td align="center" id="dhbg">0.85</td>
+            <td align="center" id="dhbg">0.70</td>
+            <td align="center" id="dhbg">0.65</td>
+            <td align="center" id="dhbg">0.60</td>
+            <td align="center" id="dhbg">0.55</td>
+		    </tr>         
+       </table>  
+      <p></p> 
 
 4.3 人群荷载
 ----------------------
@@ -21,9 +361,23 @@
 4.4 起重机荷载
 ----------------------
 
+.. raw:: html
+
+ <p><a href="#id4.4.1"> 4.4.1</a> <span id="id4.4.1"> 港口码头使用的起重运输机械荷载标准值，应根据装卸工艺选用的机型和实际使用的起重量、幅度等确定。</span></p>
+ <p><a href="#id4.4.2"> 4.4.2</a> <span id="id4.4.2"> 厂房起重机荷载应按竖向荷载和水平荷载分别计算。其竖向荷载标准值，应按不利原则分别采用起重机的最大轮压或最小轮压；其水平荷载应分别按照纵向和横向水平荷载进行计算。</span></p>
+ <p><a href="#id4.4.3"> 4.4.3</a> <span id="id4.4.3"> 安装有多台起重机的厂房，应根据实际情况计算参与组合的起重机数量，并对起重机荷载标准值进行折减。</span></p>
 
 4.5 雪荷载和覆冰荷载
 ----------------------
+.. raw:: html
+
+ <p><a href="#id4.5.1"> 4.5.1</a> <span id="id4.5.1"> 屋面水平投影面上的雪荷载标准值应为屋面积雪分布系数和基本雪压的乘积。</span></p>
+ <p><a href="#id4.5.2"> 4.5.2</a> <span id="id4.5.2"> 基本雪压应根据空旷平坦地形条件下的降雪观测资料，采用适当的概率分布模型，按50年重现期进行计算。对雪荷载敏感的结构，应按照100年重现期雪压和基本雪压的比值，提高其雪荷载取值。</span></p>
+ <p><a href="#id4.5.3"> 4.5.3</a> <span id="id4.5.3"> 确定基本雪压时，应以年最大雪压观测值为分析基础；当没有雪压观测数据时，年最大雪压计算值应表示为地区平均等效积雪密度、年最大雪深观测值和重力加速度的乘积。</span></p>
+ <p><a href="#id4.5.4"> 4.5.4</a> <span id="id4.5.4"> 屋面积雪分布系数应根据屋面形式确定，并应同时考虑均匀分布和非均匀分布等各种可能的积雪分布情况。屋面积雪的滑落不受阻挡时，积雪分布系数在屋面坡度大于等于60°时应为0。</span></p>
+ <p><a href="#id4.5.5"> 4.5.5</a> <span id="id4.5.5"> 当考虑周边环境对屋面积雪的有利影响而对积雪分布系数进行调整时，调整系数不应低于0.90。</span></p>
+ <p><a href="#id4.5.6"> 4.5.6</a> <span id="id4.5.6"> 计算塔桅结构、输电塔和钢索等结构的覆冰荷载时，应根据覆冰厚度及覆冰的物理特性确定其荷载值。计算覆冰条件下结构的风荷载，应考虑覆冰造成的挡风面积增加和风阻系数变化的不利影响，并应评估覆冰造成的动力效应。当下方可能有行人经过时，尚应对覆冰坠落风险进行评价并采取相应措施。</span></p>
+ <p><a href="#id4.5.7"> 4.5.7</a> <span id="id4.5.7"> 雪荷载的组合值系数应取0.7，频遇值系数应取0.6，准永久值系数应根据气候条件的不同，分别取0.5、0.2和0。</span></p>
 
 
 4.6 风荷载
@@ -32,20 +386,68 @@
 
 4.7 温度作用
 ----------------------
+.. raw:: html
+
+ <p><a href="#id4.7.1"> 4.7.1</a> <span id="id4.7.1"> 温度作用应考虑气温变化、太阳辐射及使用热源等因素，作用在结构或构件上的温度作用应采用其温度的变化来表示。</span></p>
+ <p><a href="#id4.7.2"> 4.7.2</a> <span id="id4.7.2"> 计算结构或构件的温度作用效应时，应采用材料的线膨胀系数。</span></p>
+ <p><a href="#id4.7.3"> 4.7.3</a> <span id="id4.7.3"> 基本气温应采用50年重现期的月平均最高气温和月平均最低气温。对于金属结构等对气温变化较敏感的结构，应适当增加或降低基本气温。</span></p>
+ <p><a href="#id4.7.4"> 4.7.4</a> <span id="id4.7.4"> 均匀温度作用的标准值应按下列规定确定：</span></p>
+ <ol>
+ <li>对结构最大温升的工况，均匀温度作用标准值应为结构最高平均温度与最低初始平均温度之差； </li>
+ <li>对结构最大温降的工况，均匀温度作用标准值应为结构最低平均温度与最高初始平均温度之差。</li>
+ </ol>
+ <p><a href="#id4.7.5"> 4.7.5</a> <span id="id4.7.5"> 结构最高平均温度和最低平均温度，应基于基本气温根据工程施工期间和正常使用期间的实际情况，按热工学原理确定。</span></p>
+ <p><a href="#id4.7.6"> 4.7.6</a> <span id="id4.7.6"> 结构的最高初始平均温度和最低初始平均温度应根据结构的合拢或形成约束时的温度确定，或根据施工时结构可能出现的温度按不利情况确定。</span></p>
+ <p><a href="#id4.7.7"> 4.7.7</a> <span id="id4.7.7"> 温度作用的组合值系数、频遇值系数和准永久值系数分别取0.6、0.5和0.4。</span></p>
 
 
 4.8 偶然作用
 ----------------------
+.. raw:: html
+
+ <p><a href="#id4.8.1"> 4.8.1</a> <span id="id4.8.1"> 当以偶然作用作为结构设计的主导作用时，应考虑偶然作用发生时和偶然作用发生后两种工况。在允许结构出现局部构件破坏的情况下，应保证结构不致因局部破坏引起连续倒塌。</span></p>
+ <p><a href="#id4.8.2"> 4.8.2</a> <span id="id4.8.2"> 按照静力方法计算爆炸荷载时，应以静力荷载与动荷载的荷载效应等效为原则。</span></p>
+ <p><a href="#id4.8.3"> 4.8.3</a> <span id="id4.8.3"> 常规炸药爆炸的等效静力荷载，应在动力荷载的基础上按照内力等效原则乘以动力放大系数。</span></p>
+ <p><a href="#id4.8.4"> 4.8.4</a> <span id="id4.8.4"> 燃气爆炸的等效静力荷载，应考虑通口板面积和爆炸空间体积等因素的影响，按最不利条件取值。</span></p>
+ <p><a href="#id4.8.5"> 4.8.5</a> <span id="id4.8.5"> 撞击荷载的计算应根据撞击物的质量、速度、撞击时间和作用点确定。</span></p>
 
 
 4.9 水流力和冰压力
 ----------------------
+.. raw:: html
+
+ <p><a href="#id4.9.1"> 4.9.1</a> <span id="id4.9.1"> 对于港口工程、桥梁等承受水流作用的结构物，应计算水流力的作用。水流力应按照水流阻力系数、水流动能和构件投影面积的乘积计算。</span></p>
+ <p><a href="#id4.9.2"> 4.9.2</a> <span id="id4.9.2"> 水流阻力系数应根据梁、桁架、墩、柱等结构的外形确定。当不同结构、构件之间间距较近时，尚应考虑互相影响。</span></p>
+ <p><a href="#id4.9.3"> 4.9.3</a> <span id="id4.9.3"> 当水流力的作用方向与水流方向一致时，合力作用点位置应按下列规定计算：</span></p>
+ <ol>
+ <li>上部构件：位于阻水面积形心处。</li>
+ <li>下部构件：顶面在水面以下时，位于顶面以下1/3高度处；顶面在水面以上时，位于水面以下1/3水深处。</li>
+ </ol>
+ <p><a href="#id4.9.4"> 4.9.4</a> <span id="id4.9.4"> 作用在港口工程结构物上的冰荷载应根据当地冰凌实际情况及港口工程的结构形式确定，对重要工程或难以计算确定的冰荷载应通过冰力物理模型试验等专门研究确定。</span></p>
+ <p><a href="#id4.9.5"> 4.9.5</a> <span id="id4.9.5"> 静冰压力作用点应取冰面以下冰厚1/3处。</span></p>
+ <p><a href="#id4.9.6"> 4.9.6</a> <span id="id4.9.6"> 冰冻期冰层厚度内的冰压力与水压力不应同时考虑。</span></p>
 
 
 4.10 专门领域的作用
 ----------------------
 
+.. raw:: html
 
-
-
+ <p><a href="#id4.10.1"> 4.10.1</a> <span id="id4.10.1"> 铁路列车引起的气动压力和气动吸力，应作为移动面荷载施加于受影响的建筑结构上。</span></p>
+ <p><a href="#id4.10.1"> 4.10.1</a> <span id="id4.10.1"> 公路路面、桥涵设计时，车辆荷载应根据公路等级、车辆技术指标和荷载图式确定。作用在港口工程结构上的汽车荷载，应按实际选用的车型确定，并按其可能出现的情况进行排列。</span></p>
+ <p><a href="#id4.10.1"> 4.10.1</a> <span id="id4.10.1"> 最冷月份平均气温低于—15 ℃地区的隧道，以及位于永冻土及冻胀土（季节冻胀深度大于2 m）的结构，应考虑冻胀力作用。冻胀力应根据当地的自然条件、围岩冬季含水量及排水条件等因素通过研究确定。</span></p>
+ <p><a href="#id4.10.1"> 4.10.1</a> <span id="id4.10.1"> 作用在港口工程结构上的堆货荷载标准值应根据堆存货种、装卸工艺确定的堆存情况，结合码头结构形式、地基条件、结构计算项目并考虑港口发展等因素综合分析确定。</span></p>
+ <p><a href="#id4.10.1"> 4.10.1</a> <span id="id4.10.1"> 港口和水工建筑物承受的波浪力，应按照直墙式、斜坡式、桩基和墩柱、高桩码头面板等不同结构形式，结合波浪形态和作用方式分别计算确定。当结构或地形复杂时，结构上的波浪力应通过模型试验等专门研究确定。</span></p>
+ <p><a href="#id4.10.1"> 4.10.1</a> <span id="id4.10.1"> 作用在固定式系船、靠船结构上的船舶荷载应包括下列内容：</span></p>
+ <ol>
+ <li>由风和水流产生的系缆力；</li>
+ <li>由风和水流产生的挤靠力；</li>
+ <li>船舶靠岸时产生的撞击力；</li>
+ <li>系泊船舶在波浪作用下产生的撞击力等。</li>
+ </ol>
+ <p><a href="#id4.10.1"> 4.10.1</a> <span id="id4.10.1"> 港口工程结构计算剩余水压力所采用的剩余水头应根据水位的变化、码头排水条件、填料的渗透性能等因素确定。</span></p>
+ <p><a href="#id4.10.1"> 4.10.1</a> <span id="id4.10.1"> 水工建筑设计时，应根据设计状况对应的计算水位确定静水压力和扬压力。扬压力的分布图形，应根据不同的水工结构形式，上、下游计算水位，地基地质条件及防渗、排水措施等情况确定。</span></p>
+ <p><a href="#id4.10.1"> 4.10.1</a> <span id="id4.10.1"> 作用在水工建筑物上的动水压力，应区分不同的水流状态。当水流脉动影响结构的安全或引起结构振动时，尚应计及脉动压力的影响。</span></p>
+ <p><a href="#id4.10.1"> 4.10.1</a> <span id="id4.10.1"> 地下结构是由围岩及其加固措施构成的统一体，设计时应考虑围岩的自稳能力和承载能力。围岩作用应根据岩体结构类型及其特征确定。</span></p>
+ <p><a href="#id4.10.1"> 4.10.1</a> <span id="id4.10.1"> 挡土建筑物的土压力应根据挡土结构的特点，分别按照主动土压力和被动土压力计算。挡水建筑物的淤沙压力，应根据河流水文泥沙特性、水库淤积平衡年限或设计工作年限、枢纽布置情况经计算确定。</span></p>
 
