@@ -10,17 +10,17 @@
 --------------------
 .. raw:: html
 
- <p><a href="#id2.1.1"> 2.1.1</a> <span id="id2.1.1"> 结构在设计工作年限内，必须符合下列规定：</span></p>
+ <p style="text-align:justify"><a href="#id2.1.1"> 2.1.1</a> <span id="id2.1.1"> 结构在设计工作年限内，必须符合下列规定：</span></p>
 
  <ol>
- <li> 应能够承受在正常施工和正常使用期间预期可能出现的各种作用；</li>
- <li>应保障结构和结构构件的预定使用要求；</li>
- <li>应保障足够的耐久性要求。</li>
+ <li style="text-align:justify"> 应能够承受在正常施工和正常使用期间预期可能出现的各种作用；</li>
+ <li style="text-align:justify">应保障结构和结构构件的预定使用要求；</li>
+ <li style="text-align:justify">应保障足够的耐久性要求。</li>
  </ol>
- <p><a href="#id2.1.2"> 2.1.2</a> <span id="id2.1.2"> 结构体系应具有合理的传力路径，能够将结构可能承受的各种作用从作用点传递到抗力构件。</span></p>
- <p><a href="#id2.1.3"> 2.1.3</a> <span id="id2.1.3"> 当发生可能遭遇的爆炸、撞击、罕遇地震等偶然事件及人为失误时，结构应保持整体稳固性，不应出现与起因不相称的破坏后果。当发生火灾时，结构应能在规定的时间内保持承载力和整体稳固性。</span></p>
- <p><a href="#id2.1.4"> 2.1.4</a> <span id="id2.1.4"> 根据环境条件对耐久性的影响，结构材料应采取相应的防护措施。</span></p>
- <p><a href="#id2.1.5"> 2.1.5</a> <span id="id2.1.5"> 结构设计应包括下列基本内容：</span></p>
+ <p style="text-align:justify"><a href="#id2.1.2"> 2.1.2</a> <span id="id2.1.2"> 结构体系应具有合理的传力路径，能够将结构可能承受的各种作用从作用点传递到抗力构件。</span></p>
+ <p style="text-align:justify"><a href="#id2.1.3"> 2.1.3</a> <span id="id2.1.3"> 当发生可能遭遇的爆炸、撞击、罕遇地震等偶然事件及人为失误时，结构应保持整体稳固性，不应出现与起因不相称的破坏后果。当发生火灾时，结构应能在规定的时间内保持承载力和整体稳固性。</span></p>
+ <p style="text-align:justify"><a href="#id2.1.4"> 2.1.4</a> <span id="id2.1.4"> 根据环境条件对耐久性的影响，结构材料应采取相应的防护措施。</span></p>
+ <p style="text-align:justify"><a href="#id2.1.5"> 2.1.5</a> <span id="id2.1.5"> 结构设计应包括下列基本内容：</span></p>
  <ol>
  <li>结构方案；
  <li>作用的确定及作用效应分析；
@@ -29,15 +29,15 @@
  <li>结构耐久性的设计；
  <li>施工可行性。
  </ol>
- <p><a href="#id2.1.6"> 2.1.6</a> <span id="id2.1.6"> 结构应按照设计文件施工。施工过程应采取保证施工质量和施工安全的技术措施和管理措施。</span></p>
- <p><a href="#id2.1.7"> 2.1.7</a> <span id="id2.1.7"> 结构应按设计规定的用途使用，并应定期检查结构状况，进行必要的维护和维修。严禁下列影响结构使用安全的行为： </span></p>
+ <p style="text-align:justify"><a href="#id2.1.6"> 2.1.6</a> <span id="id2.1.6"> 结构应按照设计文件施工。施工过程应采取保证施工质量和施工安全的技术措施和管理措施。</span></p>
+ <p style="text-align:justify"><a href="#id2.1.7"> 2.1.7</a> <span id="id2.1.7"> 结构应按设计规定的用途使用，并应定期检查结构状况，进行必要的维护和维修。严禁下列影响结构使用安全的行为： </span></p>
  <ol>
- <li>未经技术鉴定或设计许可，擅自改变结构用途和使用环境；</li>
- <li>损坏或者擅自变动结构体系及抗震设施；</li>
- <li>擅自增加结构使用荷载；</li>
- <li>损坏地基基础；</li>
- <li>违规存放爆炸性、毒害性、放射性、腐蚀性等危险物品；</li>
- <li>影响毗邻结构使用安全的结构改造与施工。</li>
+ <li style="text-align:justify">未经技术鉴定或设计许可，擅自改变结构用途和使用环境；</li>
+ <li style="text-align:justify">损坏或者擅自变动结构体系及抗震设施；</li>
+ <li style="text-align:justify">擅自增加结构使用荷载；</li>
+ <li style="text-align:justify">损坏地基基础；</li>
+ <li style="text-align:justify">违规存放爆炸性、毒害性、放射性、腐蚀性等危险物品；</li>
+ <li style="text-align:justify">影响毗邻结构使用安全的结构改造与施工。</li>
  </ol>
  <p><a href="#id2.1.8"> 2.1.8</a> <span id="id2.1.8"> 对结构或其部件进行拆除前，应制定详细的拆除计划和方案，并对拆除过程可能发生的意外情况制定应急预案。结构拆除应遵循减量化、资源化和再生利用的原则。</span></p>
 
@@ -46,7 +46,7 @@
 
 .. raw:: html
 
- <p><a href="#id2.2.1"> 2.2.1</a> <span id="id2.2.1"> 结构设计时，应根据结构破坏可能产生后果的严重性，采用不同的安全等级。结构安全等级的划分应符合按<a href="#B2.2.1">表2.2.1</a>的规定。结构及其部件的安全等级不得低于三级。</span></p>
+ <p style="text-align:justify"><a href="#id2.2.1"> 2.2.1</a> <span id="id2.2.1"> 结构设计时，应根据结构破坏可能产生后果的严重性，采用不同的安全等级。结构安全等级的划分应符合按<a href="#B2.2.1">表2.2.1</a>的规定。结构及其部件的安全等级不得低于三级。</span></p>
  
   <style>
       #biaoge {
@@ -61,6 +61,7 @@
          padding-left:5px;
          padding-right:5px;
          border: 1px solid black;
+         vertical-align: middle;
          
       }
       #eqzs {
@@ -95,33 +96,11 @@
     <p></p>
    
 
- <p><a href="#id2.2.2"> 2.2.2</a> <span id="id2.2.2"> 结构设计时，应根据工程的使用功能、建造和使用维护成本以及环境影响等因素规定设计工作年限，并应符合下列规定：</span></p>
+ <p style="text-align:justify"><a href="#id2.2.2"> 2.2.2</a> <span id="id2.2.2"> 结构设计时，应根据工程的使用功能、建造和使用维护成本以及环境影响等因素规定设计工作年限，并应符合下列规定：</span></p>
  <ol >
- <li>房屋建筑的结构设计工作年限不应低于<a href="#B2.2.2-1">表2.2.2-1</a>的规定；</li>
+ <li style="text-align:justify">房屋建筑的结构设计工作年限不应低于<a href="#B2.2.2-1">表2.2.2-1</a>的规定；</li>
  </ol>
 
-  <style>
-      #biaoge {
-         border: 2px solid black;
-         border-collapse: collapse;
-         margin-bottom:1px;
-        
-      }
-      th, td {
-         padding-top: 5px;
-         padding-bottom:5px;
-         padding-left:5px;
-         padding-right:5px;
-         border: 1px solid black;
-         
-      }
-      #eqzs {
-         border: 0px;
-      }
-      #dhbg {
-        vertical-align: middle;
-      }     
-     </style>
 
 		<table id="biaoge" style="font-family:times new roman">
 
@@ -147,35 +126,13 @@
     <p></p>
  
  <ol start="2">
- <li>公路工程的结构设计工作年限不应低于<a href="#B2.2.2-2">表2.2.2-2</a>的规定；</li>
+ <li style="text-align:justify">公路工程的结构设计工作年限不应低于<a href="#B2.2.2-2">表2.2.2-2</a>的规定；</li>
  </ol>
 
-  <style>
-      #biaoge {
-         border: 2px solid black;
-         border-collapse: collapse;
-         margin-bottom:1px;
-        
-      }
-      th, td {
-         padding-top: 5px;
-         padding-bottom:5px;
-         padding-left:5px;
-         padding-right:5px;
-         border: 1px solid black;
-         
-      }
-      #eqzs {
-         border: 0px;
-      }
-       #dhbg {
-        vertical-align: middle;
-      }
-     </style>
 
 		<table id="biaoge" style="font-family:times new roman">
 
-         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B2.2.2-1">表2.2.2-2 公路工程的结构设计工作年限（年）</b></caption>	
+         <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B2.2.2-2">表2.2.2-2 公路工程的结构设计工作年限（年）</b></caption>	
               
 		    <tr>
             <td  rowspan="2" colspan="3"align="center" id="dhbg">结构类别</td>
@@ -311,8 +268,8 @@
  <ol start="3">
   <li>永久性港口建筑物的结构设计工作年限不应低于50年。</li>
  </ol>
- <p><a href="#id2.2.3"> 2.2.3</a> <span id="id2.2.3"> 结构的防水层、电气和管道等附属设施的设计工作年限，应根据主体结构的设计工作年限和附属设施的材料、构造和使用要求等因素确定。</span></p>
- <p><a href="#id2.2.4"> 2.2.4</a> <span id="id2.2.4"> 结构部件与结构的安全等级不一致或设计工作年限不一致的，应在设计文件中明确标明。</span></p>
+ <p style="text-align:justify"><a href="#id2.2.3"> 2.2.3</a> <span id="id2.2.3"> 结构的防水层、电气和管道等附属设施的设计工作年限，应根据主体结构的设计工作年限和附属设施的材料、构造和使用要求等因素确定。</span></p>
+ <p style="text-align:justify"><a href="#id2.2.4"> 2.2.4</a> <span id="id2.2.4"> 结构部件与结构的安全等级不一致或设计工作年限不一致的，应在设计文件中明确标明。</span></p>
 
 
 2.3 结构分析
@@ -320,10 +277,10 @@
 
 .. raw:: html
 
- <p><a href="#id2.3.1"> 2.3.1</a> <span id="id2.3.1"> 结构构件及其连接的作用效应应通过考虑了力学平衡条件、变形协调条件、材料时变特性以及稳定性等因素的结构分析方法确定。</span></p>
- <p><a href="#id2.3.2"> 2.3.2</a> <span id="id2.3.2"> 结构分析采用的计算模型应能合理反映结构在相关因素作用下的作用效应。分析所采用的简化或假定，应以理论和工程实践为基础，无成熟经验时应通过试验验证其合理性。分析时设置的边界条件应符合结构的实际情况。</span></p>
- <p><a href="#id2.3.3"> 2.3.3</a> <span id="id2.3.3"> 结构分析应根据结构类型、材料性能和受力特点等因素，选用线性或非线性分析方法。当动力作用对结构影响显著时，尚应采用动力响应分析或动力系数等方法考虑其影响。</span></p>
- <p><a href="#id2.3.4"> 2.3.4</a> <span id="id2.3.4"> 当结构的变形可能使作用效应显著增大时，应在结构分析中考虑结构变形的影响。</span></p>
+ <p style="text-align:justify"><a href="#id2.3.1"> 2.3.1</a> <span id="id2.3.1"> 结构构件及其连接的作用效应应通过考虑了力学平衡条件、变形协调条件、材料时变特性以及稳定性等因素的结构分析方法确定。</span></p>
+ <p style="text-align:justify"><a href="#id2.3.2"> 2.3.2</a> <span id="id2.3.2"> 结构分析采用的计算模型应能合理反映结构在相关因素作用下的作用效应。分析所采用的简化或假定，应以理论和工程实践为基础，无成熟经验时应通过试验验证其合理性。分析时设置的边界条件应符合结构的实际情况。</span></p>
+ <p style="text-align:justify"><a href="#id2.3.3"> 2.3.3</a> <span id="id2.3.3"> 结构分析应根据结构类型、材料性能和受力特点等因素，选用线性或非线性分析方法。当动力作用对结构影响显著时，尚应采用动力响应分析或动力系数等方法考虑其影响。</span></p>
+ <p style="text-align:justify"><a href="#id2.3.4"> 2.3.4</a> <span id="id2.3.4"> 当结构的变形可能使作用效应显著增大时，应在结构分析中考虑结构变形的影响。</span></p>
 
 
 2.4 作用和作用组合
@@ -331,22 +288,22 @@
 
 .. raw:: html
 
- <p><a href="#id2.4.1"> 2.4.1</a> <span id="id2.4.1"> 结构上的作用根据时间变化特性应分为永久作用、可变作用和偶然作用，其代表值应符合下列规定：</span></p>
+ <p style="text-align:justify"><a href="#id2.4.1"> 2.4.1</a> <span id="id2.4.1"> 结构上的作用根据时间变化特性应分为永久作用、可变作用和偶然作用，其代表值应符合下列规定：</span></p>
  <ol>
- <li>永久作用应采用标准值；</li>
- <li>可变作用应根据设计要求采用标准值、组合值、频遇值或准永久值；</li>
- <li>偶然作用应按结构设计使用特点确定其代表值。</li>
+ <li style="text-align:justify">永久作用应采用标准值；</li>
+ <li style="text-align:justify">可变作用应根据设计要求采用标准值、组合值、频遇值或准永久值；</li>
+ <li style="text-align:justify">偶然作用应按结构设计使用特点确定其代表值。</li>
  </ol>
- <p><a href="#id2.4.2"> 2.4.2</a> <span id="id2.4.2"> 结构上的作用应根据下列不同分类特性，选择恰当的作用模型和加载方式：</span></p>
+ <p style="text-align:justify"><a href="#id2.4.2"> 2.4.2</a> <span id="id2.4.2"> 结构上的作用应根据下列不同分类特性，选择恰当的作用模型和加载方式：</span></p>
  <ol>
  <li>直接作用和间接作用；</li>
  <li>固定作用和非固定作用；</li>
  <li>静态作用和动态作用。</li>
  <p></p>
- <p><a href="#id2.4.3"> 2.4.3</a> <span id="id2.4.3"> 确定可变作用代表值时应采用统一的设计基准期。当结构采用的设计基准期不是50年时，应按照可靠指标一致的原则，对本规范规定的可变作用量值进行调整。</span></p>
- <p><a href="#id2.4.4"> 2.4.4</a> <span id="id2.4.4"> 对于结构在施工和使用期间可能出现，而本规范未规定的各类作用，应根据结构的设计工作年限、设计基准期和保证率，确定其量值大小。</span></p>
- <p><a href="#id2.4.5"> 2.4.5</a> <span id="id2.4.5"> 生产工艺荷载应根据工艺及相关专业的要求确定。</span></p>
- <p><a href="#id2.4.6"> 2.4.6</a> <span id="id2.4.6"> 结构作用应根据结构设计要求，按下列规定进行组合：</span></p>
+ <p style="text-align:justify"><a href="#id2.4.3"> 2.4.3</a> <span id="id2.4.3"> 确定可变作用代表值时应采用统一的设计基准期。当结构采用的设计基准期不是50年时，应按照可靠指标一致的原则，对本规范规定的可变作用量值进行调整。</span></p>
+ <p style="text-align:justify"><a href="#id2.4.4"> 2.4.4</a> <span id="id2.4.4"> 对于结构在施工和使用期间可能出现，而本规范未规定的各类作用，应根据结构的设计工作年限、设计基准期和保证率，确定其量值大小。</span></p>
+ <p style="text-align:justify"><a href="#id2.4.5"> 2.4.5</a> <span id="id2.4.5"> 生产工艺荷载应根据工艺及相关专业的要求确定。</span></p>
+ <p style="text-align:justify"><a href="#id2.4.6"> 2.4.6</a> <span id="id2.4.6"> 结构作用应根据结构设计要求，按下列规定进行组合：</span></p>
  <ol>
  <li>基本组合：</li>
  </ol>
@@ -396,17 +353,17 @@ $$\\small\\sum_{i\\geqslant 1}\\,G_{\\mathrm{ik}}+P+\\sum_{j \\geqslant 1}\\,\\p
 .. raw:: html
 
  <p> <font size="2">注：式中符号的含义见本规范附录A。</font></p>
- <p><a href="#id2.4.7"> 2.4.7</a> <span id="id2.4.7"> 作用组合的效应设计值，应将所考虑的各种作用同时加载于结构之后，再通过分析计算确定。</span></p>
- <p><a href="#id2.4.8"> 2.4.8</a> <span id="id2.4.8"> 当作用组合的效应设计值简化为单个作用效应的组合时，作用与作用效应应满足线性关系。</span></p>
+ <p style="text-align:justify"><a href="#id2.4.7"> 2.4.7</a> <span id="id2.4.7"> 作用组合的效应设计值，应将所考虑的各种作用同时加载于结构之后，再通过分析计算确定。</span></p>
+ <p style="text-align:justify"><a href="#id2.4.8"> 2.4.8</a> <span id="id2.4.8"> 当作用组合的效应设计值简化为单个作用效应的组合时，作用与作用效应应满足线性关系。</span></p>
 
 2.5 材料和岩土的性能及结构几何参数
 -------------------------------------
 .. raw:: html
 
- <p><a href="#id2.5.1"> 2.5.1</a> <span id="id2.5.1"> 在选择结构材料种类、材料规格进行结构设计时，应考虑各种可能影响耐久性的环境因素。</span></p>
- <p><a href="#id2.5.2"> 2.5.2</a> <span id="id2.5.2"> 材料特性应通过标准化测试方法确定。当实际应用条件与试验条件有差异时，应对试验值进行修正。</span></p>
- <p><a href="#id2.5.3"> 2.5.3</a> <span id="id2.5.3"> 岩土性能指标和地基承载力、桩基承载力等，应通过原位测试、室内试验等直接或间接试验方法测定，并应考虑由于钻探取样、室内外试验条件与实际建筑结构条件的差别以及所采用计算公式的误差等因素的影响。</span></p>
- <p><a href="#id2.5.4"> 2.5.4</a> <span id="id2.5.4"> 当试验数据不充分时，材料性能的标准值应根据可靠资料确定。</span></p>
- <p><a href="#id2.5.5"> 2.5.5</a> <span id="id2.5.5"> 结构连接部件几何参数的公差应相互兼容。</span></p>
+ <p style="text-align:justify"><a href="#id2.5.1"> 2.5.1</a> <span id="id2.5.1"> 在选择结构材料种类、材料规格进行结构设计时，应考虑各种可能影响耐久性的环境因素。</span></p>
+ <p style="text-align:justify"><a href="#id2.5.2"> 2.5.2</a> <span id="id2.5.2"> 材料特性应通过标准化测试方法确定。当实际应用条件与试验条件有差异时，应对试验值进行修正。</span></p>
+ <p style="text-align:justify"><a href="#id2.5.3"> 2.5.3</a> <span id="id2.5.3"> 岩土性能指标和地基承载力、桩基承载力等，应通过原位测试、室内试验等直接或间接试验方法测定，并应考虑由于钻探取样、室内外试验条件与实际建筑结构条件的差别以及所采用计算公式的误差等因素的影响。</span></p>
+ <p style="text-align:justify"><a href="#id2.5.4"> 2.5.4</a> <span id="id2.5.4"> 当试验数据不充分时，材料性能的标准值应根据可靠资料确定。</span></p>
+ <p style="text-align:justify"><a href="#id2.5.5"> 2.5.5</a> <span id="id2.5.5"> 结构连接部件几何参数的公差应相互兼容。</span></p>
  
 :math:`\ `

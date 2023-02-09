@@ -3,28 +3,51 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-**中华人民共和国国家标准**
+.. raw:: html
 
+  <b><font size="5">中华人民共和国国家标准</font></b>
+
+ <p></p>
+
+ 
 工程结构通用规范
 =========================================
 .. raw:: html
 
-  <h2 id="test111">工程结构通用规范 <br/> <font size="2">General code for engineering structures</font></h2>
+ <p></p>
 
-  <b>GB55001-2021</b>
+  <h1 id="test111"><font size="10"><br/><br/><br/>工程结构通用规范</font></h1>
+
+ <b><br/><br/><font size="4">General code for engineering structures</font></b>
+
+
+  <b><br/><br/><br/><font size="4">GB55001-2021</font></b>
 
  <p></p>
 
 
-
-.. raw:: html
-   :file: ./_static/fm.html
+ <body>
+ <table border="0" style="font-family:times new roman" >
+ <tr>
+ <td><font size="4"><br/><br/>主编部门:</font></td>
+ <td><font size="4"><br/><br/>中华人民共和国住房和城乡建设部</font></td>
+ </tr>
+ <tr>
+ <td><font size="4"><br/>批准部门：</font></td>
+ <td><font size="4"><br/>中华人民共和国住房和城乡建设部</font></td>
+ </tr>
+ <tr>
+ <td><font size="4"><br/>施行日期：</font></td>
+ <td><font size="4"><br/>2022年1月1日</font></td>
+ </tr>
+ </table>
+	</body>
 
 .. raw:: html
 
     <style>
         #abc{
-            height:500px;
+            height:300px;
             background-color: #f0ffff;
         }
     </style>
@@ -35,9 +58,9 @@
 
 
 
-中国建筑工业出版社
+ <p><b><font size="4">中国建筑工业出版社</font></b></p>
+ <p><b><font size="4">2021·北京</font></b></p>
 
-2021·北京
 
 
 .. toctree::
@@ -53,7 +76,9 @@
     3
     4
     FLA
-    FU
+    qcsm
+    1jbqk
+    2ry
+    3sy
+    4twsm
    
-
-
