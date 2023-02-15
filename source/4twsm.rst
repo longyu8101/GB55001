@@ -233,7 +233,7 @@ $$\\gamma_{L}=1+0.78 k_Q \\delta_{Q} \\mathrm{ln} (T_{l}/T)\\tag{2}$$
     <p></p>
 
  <p style="text-align:justify">&emsp;&emsp;&emsp;对于风、雪荷载，可通过选择不同重现期的值来考虑设计工作年限的变化。对温度作用，还没有太多设计经验，考虑设计工作年限的调整尚不成熟。因此，可变荷载调整系数的具体数据，仅限于楼面和屋面活荷载。<br/>
-  &emsp;&emsp;&emsp;根据<a href="#Bt1">表1</a>计算结果，对本规范<a href="https://gb55001.readthedocs.io/zh/latest/3.html#B3.3.16">表3.1.16</a>中所列以外的其他设计工作年限对应的γ<sub>L</sub>值，按线性内插计算是可行的。<br/>
+  &emsp;&emsp;&emsp;根据<a href="#Bt1">表1</a>计算结果，对本规范<a href="https://gb55001.readthedocs.io/zh/latest/3.html#B3.1.16">表3.1.16</a>中所列以外的其他设计工作年限对应的γ<sub>L</sub>值，按线性内插计算是可行的。<br/>
   &emsp;&emsp;&emsp;对于荷载标准值不会随时间明显变化的荷载，如楼面均布活荷载中的书库、储藏室、机房、停车库，以及工业楼面均布活荷载等，不需要考虑设计工作年限调整系数。</p>
 
 3.2 其他设计方法
