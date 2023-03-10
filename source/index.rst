@@ -3,13 +3,13 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. raw:: html
+
 
 中华人民共和国国家标准
  
 工程结构通用规范
 =========================================
-.. raw:: html
+
 
 
 .. raw:: html
