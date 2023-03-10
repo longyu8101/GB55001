@@ -33,7 +33,7 @@ html_theme = 'sphinx_rtd_theme'
 
 # html_theme = 'sphinx_book_theme'
 
-html_title = "查规范：工程结构通用规范 GB55001-2021"
+html_title = "工程结构通用规范 GB55001-2021"
 # html_logo = "_static/logo.png"
 html_favicon = "_static/logo.png"
 
