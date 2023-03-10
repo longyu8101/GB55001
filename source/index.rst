@@ -5,25 +5,21 @@
 
 .. raw:: html
 
-  <b><font size="5">中华人民共和国国家标准</font></b>
-
- <p></p>
-
+中华人民共和国国家标准
  
-差规范-工程结构通用规范
+工程结构通用规范
 =========================================
 .. raw:: html
 
- <p></p>
 
-  <h1 id="test111"><font size="10"><br/><br/><br/>工程结构通用规范</font></h1>
+.. raw:: html
 
- <b><br/><br/><font size="4">General code for engineering structures</font></b>
+  <h2 id="test111">工程结构通用规范</h2>
 
+  General code for engineering structures
+  
+  GB55001-2021
 
-  <b><br/><br/><br/><font size="4">GB55001-2021</font></b>
-
- <p></p>
 
 
  <body>
