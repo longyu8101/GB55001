@@ -31,7 +31,7 @@
     background-color:#c0c0c0;
 }*/
 
-#shouqi,#zhankai,#openspeek,#umbsbtn,#umbs1,#collect,#dialogtext,#diacloses,#diacloses2,#btndel{
+#shouqi,#zhankai,#openspeek,#umbsbtn,#umbs1,#collect,#dialogtext,#diacloses,#diacloses2,#btndel,#redu{
     background-color:#f0ffff;
 
 
@@ -61,6 +61,14 @@ h1{
 
     width: 600px;
 
+}
+#aaa{
+    padding: 0;
+    margin: 0;
+}
+#bgcz{
+    vertical-align: middle;
+    text-align: center;
 }
 
 
