@@ -315,7 +315,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./jQuery.js"></script>
     <script src="./jquery.min.js"></script>
-    <title>welldone</title>
     <style type="text/css">
         .user-forum-thumbs {
 			width: 100%;
@@ -326,7 +325,7 @@
 		.user-forum-thumbs>button {
 			width: 10%;
 			text-align: right;
-			/* padding-right: 2%; */
+			/*padding-right: 2%;*/
 			/* float: right; */
 			border: 0;
 			outline: none;
@@ -336,14 +335,14 @@
 			height: 1vh;
 		}
 
-		#zhankai,#shouqi {
+		#zhankai,#shouqi,#zhankai1,#shouqi1 {
 			border:0;
-			float:right
+			float:right;
 		}
 
- #openspeek,#collect,#umbsbtn{
- border:0;
- }
+ 		#openspeek,#collect,#umbsbtn{
+ 			border:0;
+ 		}
 		
 		.user-forum-thumbs>button:hover {
 			color:blue ;
@@ -357,7 +356,7 @@
  
 		.user-forum-thumbs-users {
 			width: 90%;
-			padding-left: 5%;
+			padding-left: 10%;
 			margin-bottom: 2%;
 		}
  
@@ -368,7 +367,7 @@
  
 		.user-remarks-content {
 			width: 85vw;
-			margin-left: 6vw;
+			margin-left: 16vw;
 			line-height: 3vh;
 		}
  
@@ -443,6 +442,12 @@
             document.getElementById("zhankai").style.display = "none"
             document.getElementById("shouqi").style.display = "block"
         }
+		// 展开1
+        function zhankai1() {
+            document.getElementById("textAll22").style.display = "block"
+            document.getElementById("zhankai1").style.display = "none"
+            document.getElementById("shouqi1").style.display = "block"
+        }
         // 收起
         function shouqi() {
             document.getElementById("textAll").style.display = "none"
@@ -450,79 +455,84 @@
             document.getElementById("shouqi").style.display = "none"
 			document.getElementById("dialogs").style.display = "none"
         }
-            // 收藏
-			$(document).ready(function() {
-				$("#collect").click(function() {
-					$("#thumbs1").toggle();
-					$("#colltext").toggle();
-					$("#thumbs2").toggle();
-					$("#colltext2").toggle();
-				});
+		// 收起1
+        function shouqi1() {
+            document.getElementById("textAll22").style.display = "none"
+            document.getElementById("zhankai1").style.display = "block"
+            document.getElementById("shouqi1").style.display = "none"
+			document.getElementById("dialogs").style.display = "none"
+        }
+        // 收藏
+		$(document).ready(function() {
+			$("#collect").click(function() {
+				$("#thumbs1").toggle();
+				$("#colltext").toggle();
+				$("#thumbs2").toggle();
+				$("#colltext2").toggle();
 			});
-			// 点赞
-			$(document).ready(function() {
-				$("#umbsbtn").click(function() {
-					$("#umbsimg").toggle();
-					$("#umbs1").toggle();
-					$("#umbsimg2").toggle();
-					$("#umbs2").toggle();
-					$(".user-forum-thumbs-users").toggle();
-				});
+		});
+		// 点赞
+		$(document).ready(function() {
+			$("#umbsbtn").click(function() {
+				$("#umbsimg").toggle();
+				$("#umbs1").toggle();
+				$("#umbsimg2").toggle();
+				$("#umbs2").toggle();
+				$(".user-forum-thumbs-users").toggle();
 			});
-			// 评论
-			$(document).ready(function() {
-				$("#openspeek").click(function() {
-					$("#dialogs").toggle();
-				});
+		});
+		// 评论
+		$(document).ready(function() {
+			$("#openspeek").click(function() {
+				$("#dialogs").toggle();
 			});
-			// 评论弹窗关闭
-			function diacloses() {
+		});
+		// 评论弹窗关闭
+		function diacloses() {
+			document.getElementById("dialogs").style.display = "none";
+		};
+		// 发表评论
+		function addDiv() {
+			// 添加节点嵌套
+			var node = document.createElement('div');
+			var txt1 = document.createElement("p");
+			var txt2 = document.createElement("span");
+			var txt3 = document.createElement("span");
+			var txt4 = document.getElementById('dialogtext').value;
+			var btn1 = document.createElement('button');
+			var btntxt = document.createElement('span');
+			if (txt4 == '' || txt4 == ' ') {
+				alert('请输入评论内容！');
+			} else {
+				node.className = 'user-remarks-content';
+				btn1.id = 'btndel';
+				// 插入内容
+				txt2.innerHTML = "匿名用户：";
+				txt3.innerHTML = txt4;
+				btntxt.innerHTML = "删除评论";
+				// btn1.innerHTML = "<img src=" + './_static/img/delete.png' + ">";
+				// 继续嵌套
+				txt1.appendChild(txt2);
+				txt2.appendChild(txt3);
+				node.appendChild(txt1);
+				btn1.appendChild(btntxt);
+				node.appendChild(btn1);
+				// 添加评论
+				document.getElementById("addcontent").appendChild(node);
+				// 输入null内容后跳出弹窗
 				document.getElementById("dialogs").style.display = "none";
+				// 跳出弹窗后清空文本内容
+				$('#dialogtext').val('');
 			};
-			// 发表评论
-			function addDiv() {
-				// 添加节点嵌套
-				var node = document.createElement('div');
-				var txt1 = document.createElement("p");
-				var txt2 = document.createElement("span");
-				var txt3 = document.createElement("span");
-				var txt4 = document.getElementById('dialogtext').value;
-				var btn1 = document.createElement('button');
-				var btntxt = document.createElement('span');
-				if (txt4 == '' || txt4 == ' ') {
-					alert('请输入评论内容！');
-				} else {
-					node.className = 'user-remarks-content';
-					btn1.id = 'btndel';
-					// 插入内容
-					txt2.innerHTML = "匿名用户：";
-					txt3.innerHTML = txt4;
-					btntxt.innerHTML = "删除评论";
-					// btn1.innerHTML = "<img src=" + './_static/img/delete.png' + ">";
-					// 继续嵌套
-					txt1.appendChild(txt2);
-					txt2.appendChild(txt3);
-					node.appendChild(txt1);
-					btn1.appendChild(btntxt);
-					node.appendChild(btn1);
-					// 添加评论
-					document.getElementById("addcontent").appendChild(node);
-					// 输入null内容后跳出弹窗
-					document.getElementById("dialogs").style.display = "none";
-					// 跳出弹窗后清空文本内容
-					$('#dialogtext').val('');
- 
-				};
 				// 删除评论
 				// 只能删一次
-				$("#btndel").on("click", function() {
-					$(this).parent().remove();
-				});
-			}
+			$("#btndel").on("click", function() {
+				$(this).parent().remove();
+			});
+		}
     </script>
+ 
  <div>
-	<!--<div class="user-content-solid"></div>-->
-    
 	<button onclick="zhankai()" id="zhankai">
         <span>条文说明</span>
         <img src="./_static/img/down.png">
@@ -531,8 +541,15 @@
         <span>收起</span>
         <img src="./_static/img/up.png">
     </button>
+	<button onclick="zhankai1()" id="zhankai1">
+        <span>专家点评</span>
+        <img src="./_static/img/down.png">
+	</button>
+    <button onclick="shouqi1()" id="shouqi1" style="display: none">
+        <span>收起</span>
+        <img src="./_static/img/up.png">
+    </button>
     <div class="user-forum-thumbs">
-        
 		<button id="redu">
             <img src="./_static/img/look.png">
             <span><font size="3">热度</span>
@@ -552,64 +569,55 @@
             <span id="umbs1">转发</span>
             <img src="./_static/img/good2.png" id="umbsimg2" style="display: none;">
             <span id="umbs2" style="display: none;">已转发</span>
-        </button>
-        
+        </button> 
     </div>
  </div>
+ 	
  <div id="all">
-    
-    
-	<!-- 大段文字内容 -->
+	<!-- 条文说明内容 -->
 	<div id="textAll" style="display: none">
 		<p style="text-align:justify;text-indent:2em;" id="aaa"><font size="2">作用按照其他特性分类，主要是要求结构设计人员在设计过程中，根据作用的特性选择恰当的作用模型，对其进行适当的分类组合，并合理准确的加载。条文中所列3款，分别是按照作用的来源性质、空间变化特点和作用的固有性质进行的分类。</p>
 		<p style="text-align:justify;text-indent:2em;" id="aaa"><font size="2">作用按时间变化特性分类是最主要的分类方法，它直接关系到作用变量概率模型的选择。</p>
 		<p style="text-align:justify;text-indent:2em;" id="aaa"><font size="2">永久作用的统计参数与时间基本无关，故可采用随机变量概率模型来描述；永久作用的随机性通常表现在随空间变异上。可变作用的统计参数与时间有关，故采用随机过程概率模型来描述；经常可将随机过程概率模型转化为随机变量概率模型来处理。</p>
 		<table id="biaoge" style="font-family:times new roman">
-  <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B2.4.2">表2.4.2  主要结构面产状影响修正系数<i>K</i><sub>2</sub></b></caption>	    
-  <tr>
-  <td width="145px" id="bgcz">结构面产状及其与洞轴线的组合关系</td>
-  <td width="235px" id="bgcz">结构面走向与洞轴线夹角＜30°<br>结构面倾角30°～75°</td>
-  <td width="230px" id="bgcz">结构面走向与洞轴线夹角＞60°<br>结构面倾角＞75°</td>
-  <td width="90px" id="bgcz">其他组合</td>
-  </tr>
-  <tr>
-  <td id="bgcz"><i>K</i><sub>2</sub></td>
-  <td id="bgcz">0.4~0.6</td>
-  <td id="bgcz">0~0.2</td>
-  <td id="bgcz">0.2~0.4</td>
-  </tr>
-  </table>
-  <p></p>
+  		<caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B2.4.2">表2.4.2  主要结构面产状影响修正系数<i>K</i><sub>2</sub></b></caption>	    
+  		<tr>
+  		<td width="145px" id="bgcz">结构面产状及其与洞轴线的组合关系</td>
+  		<td width="235px" id="bgcz">结构面走向与洞轴线夹角＜30°<br>结构面倾角30°～75°</td>
+  		<td width="230px" id="bgcz">结构面走向与洞轴线夹角＞60°<br>结构面倾角＞75°</td>
+  		<td width="90px" id="bgcz">其他组合</td>
+  		</tr>
+  		<tr>
+  		<td id="bgcz"><i>K</i><sub>2</sub></td>
+  		<td id="bgcz">0.4~0.6</td>
+  		<td id="bgcz">0~0.2</td>
+  		<td id="bgcz">0.2~0.4</td>
+  		</tr>
+  		</table>
+  		<p></p>
 		<p style="text-align:justify;text-indent:2em;" id="aaa"><font size="2">永久作用可分为以下几类：结构自重；土压力；水位不变的水压力；预应力；地基变形；混凝土收缩；钢材焊接变形；引起结构外加变形或约束变形的各种施工因素。</p>
 		<p style="text-align:justify;text-indent:2em;" id="aaa"><font size="2">可变作用可分为以下几类：使用时人员、物件等荷载；施工时结构的某些自重；安装荷载；车辆荷载；起重机荷载；风荷载；雪荷载；冰荷载；多遇地震；正常撞击；水位变化的水压力；扬压力；波浪力；温度变化。</p>
 		<p style="text-align:justify;text-indent:2em;" id="aaa"><font size="2">作用按照其他特性分类，主要是要求结构设计人员在设计过程中，根据作用的特性选择恰当的作用模型，对其进行适当的分类组合，并合理准确的加载。条文中所列3款，分别是按照作用的来源性质、空间变化特点和作用的固有性质进行的分类。</p> 
 	</div>
-    <!-- 点赞用户 
-    <div class="user-forum-thumbs-users" style="display: none;">
-        <span><img src="./_static/img/user.png">匿名用户</span>
-    </div>-->
+	<!-- 专家点评内容 -->
+	<div id="textAll22" style="display: none">
+		<p style="text-align:justify;" id="aaa"><font size="2"><span style="font-family:SimHei;font-weight:bold;">朱炳寅</span>：查规范做得太棒了。我太特么希望你们赶紧做起来了。乃个老胡、老于，你们赶紧的。</p>
+		<p style="text-align:justify;" id="aaa"><font size="2"><span style="font-family:SimHei;font-weight:bold;">胡庆利</span>：我这也没闲着呀，一直在指导大伟按我的意思加功能。</p>
+		<p style="text-align:justify;" id="aaa"><font size="2"><span style="font-family:SimHei;font-weight:bold;">陈易</span>：永久作用的统计参数与时间基本无关，故可采用随机变量概率模型来描述；永久作用的随机性通常表现在随空间变异上。可变作用的统计参数与时间有关，故采用随机过程概率模型来描述；经常可将随机过程概率模型转化为随机变量概率模型来处理。</p>
+	</div>
+	
     <!-- 评论添加 -->
     <div class="user-remarks-addcontent" id="addcontent"></div>
     <!-- 评论删除图片 -->
     <img src="./_static/img/delete.png" id="remarks" style="display: none;">
-	
-    <!-- 分割线 -->
-    <!-- <div class="user-content-solid"></div> -->
  </div>
- <!-- 发布评论 -->
- <!-- <div class="user-com-go">
-    <div class="com-imgs">
-        <a href="../indexMenus/forum-content.html"><img src="./img/talk.png"></a>
-    </div>
- </div> -->
 
  <!-- 点击输入评论内容弹窗 -->
  <div class="dialog-wrap dialog-wrap-show" style="display: none;" id="dialogs">
     <div class="dialog-overlay"></div>
     <div class="dialog-content">
         <div class="dialog-content-bd">
-            <textarea name="dialog" id="dialogtext" cols="100%" rows="5"
-                style="margin-top: 5%;padding: 3%;margin-right: 2%;" placeholder="输入你想说的内容..."></textarea>
+            <textarea name="dialog" id="dialogtext" cols="100%" rows="5" style="margin-top: 5%;padding: 3%;margin-right: 2%;" placeholder="输入你想说的内容..."></textarea>
         </div>
         <div class="dialog-content-ft">
             <button class="dialog-btn dialog-btn-cancel" id="diacloses" onclick="diacloses()">取消</button>
