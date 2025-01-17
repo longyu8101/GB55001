@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = '工程结构通用规范<br /><br />GB55001-2021'
-copyright = '哈尔滨工业大学' 
+copyright = ' ' 
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
